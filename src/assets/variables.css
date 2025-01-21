@@ -10,4 +10,7 @@
     --color-black: #000000;
     --color-white: #FFFFFF;
     --color-green: #1EC049;
+
+    /* font colors */
+    --space-56: 3.5rem;
 }
