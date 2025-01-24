@@ -57,7 +57,7 @@ import { IconName } from '@/typings/iconName.ts'
 
   &__about {
     @extend %noto-sans-semi-bold;
-    margin: 0 5 var(--space-56);
+    margin: 0 var(--space-56);
     text-align: center;
   }
 

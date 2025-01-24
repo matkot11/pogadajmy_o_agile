@@ -15,7 +15,7 @@ import { IconName } from '@/typings/iconName.ts'
     <hr class="footer-section__divider" />
 
     <div class="footer-section__socials-wrapper">
-      <h3>Zaobserwuj nas</h3>
+      <h3>SŁUCHAJ NAS</h3>
       <div class="footer-section__icons-wrapper">
         <a href="https://m.youtube.com/@pogadajmyoagile" target="_blank">
           <GenericIcon :name="IconName.youtube" size="40" />
@@ -30,7 +30,7 @@ import { IconName } from '@/typings/iconName.ts'
     </div>
 
     <div class="footer-section__socials-wrapper">
-      <h3>Skontaktuj się z nami</h3>
+      <h3>SKONTAKTUJ SIĘ Z NAMI</h3>
       <div class="footer-section__icons-wrapper">
         <a href="https://www.facebook.com/PogadajmyoAgile" target="_blank">
           <GenericIcon :name="IconName.facebook" size="40" />
@@ -74,7 +74,6 @@ import { IconName } from '@/typings/iconName.ts'
 
   &__socials-wrapper {
     @extend %oswald-bold;
-    font-size: var(--font-20);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
