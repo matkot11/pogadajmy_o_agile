@@ -38,6 +38,8 @@ import { IconName } from '@/typings/iconName.ts'
 @use '@/assets/typography';
 
 .home-section {
+  padding-bottom: var(--space-56);
+
   &__logo-wrapper {
     display: flex;
     align-content: center;
