@@ -64,11 +64,10 @@ import { IconName } from '@/typings/iconName.ts'
   }
 
   &__socials {
-    margin-top: var(--space-56);
+    margin: var(--space-56) var(--space-56) 0 var(--space-56);
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: var(--space-56);
+    justify-content: space-between;
   }
 }
 </style>

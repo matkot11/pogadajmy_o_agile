@@ -27,7 +27,7 @@ const handleScroll = (className: string) => {
   display: flex;
   justify-content: center;
   gap: var(--space-24);
-  background-color: var(--color-black);
+  background-color: var(--color-blackish);
   position: sticky;
   top: 0;
 
@@ -36,8 +36,9 @@ const handleScroll = (className: string) => {
     font-size: var(--space-14);
     color: var(--color-white);
     text-decoration: none;
-    background-color: var(--color-black);
+    background-color: inherit;
     border: none;
+    cursor: pointer;
   }
 }
 </style>

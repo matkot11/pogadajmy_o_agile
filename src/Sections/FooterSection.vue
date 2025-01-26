@@ -53,7 +53,7 @@ import { IconName } from '@/typings/iconName.ts'
   padding: var(--space-32);
   display: flex;
   flex-direction: column-reverse;
-  background-color: var(--color-black);
+  background-color: var(--color-blackish);
   color: var(--color-white);
 
   &__logo-wrapper {
