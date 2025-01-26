@@ -58,19 +58,18 @@ const durationInMinutes = computed(() => Math.floor(props.duration_ms / 60000))
 
   &__image {
     margin-right: var(--space-8);
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
   }
 
   &__title {
     margin: 0;
-    font-size: var(--font-16);
+    font-size: var(--font-18);
   }
 
   &__description {
-    @extend %oswald-regular;
+    @extend %oswald-light;
     margin-bottom: var(--space-8);
-    font-size: var(--space-14);
   }
 
   &__time {
@@ -81,7 +80,7 @@ const durationInMinutes = computed(() => Math.floor(props.duration_ms / 60000))
   &__button {
     align-self: flex-end;
     @extend %oswald-bold;
-    font-size: var(--font-10);
+    font-size: var(--font-12);
     text-decoration: none;
     color: var(--color-black);
     background-color: var(--color-green);

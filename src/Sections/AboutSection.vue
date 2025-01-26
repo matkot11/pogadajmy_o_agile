@@ -32,9 +32,9 @@ import AboutCard from '@/components/AboutCard.vue'
 @use '@/assets/typography';
 
 .about-section {
-  padding: var(--space-32) var(--space-24);
+  padding: var(--space-56) var(--space-24);
   background: rgb(50, 48, 112);
-  background: linear-gradient(90deg, rgba(50, 48, 112, 1) 48%, rgba(0, 180, 235, 1) 100%);
+  background: linear-gradient(85deg, rgba(50, 48, 112, 1) 48%, rgba(0, 180, 235, 1) 100%);
   display: flex;
   flex-direction: column;
 

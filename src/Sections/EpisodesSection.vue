@@ -51,13 +51,13 @@ onMounted(async () => {
 @use '@/assets/typography';
 
 .episodes-section {
-  padding: var(--space-32) 0;
+  padding: var(--space-56) 0;
   background-color: var(--color-gray);
 
   &__heading {
     @extend %oswald-bold;
     margin-top: 0;
-    margin-bottom: var(--space-32);
+    margin-bottom: var(--space-56);
     font-size: var(--font-32);
     text-align: center;
   }
@@ -73,7 +73,7 @@ onMounted(async () => {
     background-color: var(--color-green);
     border-radius: 45px;
     padding: var(--space-16) var(--space-32);
-    margin: var(--space-64) auto var(--space-32) auto;
+    margin: var(--space-64) auto 0 auto;
     display: block;
     width: max-content;
     align-self: center;
