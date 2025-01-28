@@ -38,12 +38,43 @@ import AboutCard from '@/components/AboutCard.vue'
   display: flex;
   flex-direction: column;
 
+  @media only screen and (min-width: 700px) {
+    padding: var(--space-56) var(--space-32);
+    flex-direction: row;
+    gap: var(--space-32);
+  }
+
+  @media only screen and (min-width: 1000px) {
+    padding: var(--space-56) 100px;
+    gap: 100px;
+  }
+
+  @media only screen and (min-width: 1400px) {
+    padding: var(--space-56) 200px;
+    gap: 200px;
+  }
+
+  &__about-wrapper {
+    width: 100%;
+  }
+
   &__person-wrapper {
     display: flex;
+    width: 100%;
+
+    @media only screen and (min-width: 700px) {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
 
     &--secondary {
       margin-top: var(--space-56);
       flex-direction: row-reverse;
+    }
+
+    @media only screen and (min-width: 700px) {
+      margin: 0;
+      flex-direction: column-reverse;
     }
   }
 
@@ -51,10 +82,29 @@ import AboutCard from '@/components/AboutCard.vue'
     @extend %oswald-bold;
     font-size: var(--font-32);
     color: var(--color-white);
+    margin: 0 0 var(--space-32) 0;
+
+    @media only screen and (min-width: 700px) {
+      text-align: center;
+      font-size: var(--font-40);
+    }
+
+    @media only screen and (min-width: 1400px) {
+      text-align: center;
+      font-size: 56px;
+    }
   }
 
   &__person {
-    width: 200px;
+    height: 300px;
+
+    @media only screen and (min-width: 700px) {
+      height: 400px;
+    }
+
+    @media only screen and (min-width: 1400px) {
+      height: 450px;
+    }
   }
 }
 </style>
