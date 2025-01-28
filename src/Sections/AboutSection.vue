@@ -22,7 +22,7 @@ import AboutCard from '@/components/AboutCard.vue'
       </div>
       <AboutCard
         about="Ojciec, mąż, a zawodowo praktyk agile i kierownik projektów z doświadczeniem w zarządzaniu projektami w przemyśle produkcyjnym, morskim, a przede wszystkim IT. Sprawia mi olbrzymią przyjemność dzielenie się swoją wiedzą, prowadzenie szkoleń oraz wspieranie rozwoju zarówno zespołów jak poszczególnych osób."
-        about-extra="Latem uprawiam agresywną jazdę na rolkach, zimą morsuję i jeżdżę na snowboard-dzie, a w nocy strzegę mojej córki przed potworami i koszmarami."
+        about-extra="Latem uprawiam agresywną jazdę na rolkach, zimą morsuję i jeżdżę na snowboard, a w nocy strzegę mojej córki przed potworami i koszmarami."
       />
     </div>
   </div>
