@@ -20,14 +20,14 @@ import { IconName } from '@/typings/iconName.ts'
       <div class="footer-section__socials">
         <h3>SŁUCHAJ NAS</h3>
         <div class="footer-section__icons-wrapper">
-          <a href="https://m.youtube.com/@pogadajmyoagile" target="_blank">
-            <GenericIcon :name="IconName.youtube" size="40" />
-          </a>
           <a
             href="https://open.spotify.com/show/0yYMHIsmd6I5dGXU3xyIcL?si=22efb5324637422b"
             target="_blank"
           >
             <GenericIcon :name="IconName.spotify" size="40" />
+          </a>
+          <a href="https://m.youtube.com/@pogadajmyoagile" target="_blank">
+            <GenericIcon :name="IconName.youtube" size="40" />
           </a>
         </div>
       </div>
