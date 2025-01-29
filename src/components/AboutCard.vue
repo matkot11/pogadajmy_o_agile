@@ -61,7 +61,7 @@ defineProps<{
   }
 
   &__about {
-    @extend %oswald-bold;
+    @extend %noto-sans-bold;
     font-size: var(--font-14);
 
     @media only screen and (min-width: 1000px) {

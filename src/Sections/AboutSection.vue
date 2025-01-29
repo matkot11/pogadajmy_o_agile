@@ -60,7 +60,7 @@ import AboutCard from '@/components/AboutCard.vue'
 
     @media only screen and (min-width: 1300px) {
       grid-template-columns: 1fr auto;
-      grid-template-rows: auto auto;
+      grid-template-rows: 150px auto;
       gap: var(--space-24);
     }
 
