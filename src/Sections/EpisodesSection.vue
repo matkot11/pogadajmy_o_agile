@@ -67,10 +67,22 @@ onMounted(async () => {
     @media only screen and (min-width: 800px) {
       font-size: 40px;
     }
+
+    @media only screen and (min-width: 1400px) {
+      font-size: var(--space-56);
+    }
   }
 
   &__card {
     margin: var(--space-32);
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
 
     @media only screen and (min-width: 1300px) {
       margin: var(--space-32) 100px;
