@@ -115,6 +115,7 @@ import SocialButton from '@/components/SocialButton.vue'
 
     @media only screen and (min-width: 1300px) {
       height: 400px;
+      border: 2px solid var(--color-black);
     }
   }
 
@@ -157,7 +158,8 @@ import SocialButton from '@/components/SocialButton.vue'
       padding-top: var(--space-56);
       display: flex;
       align-items: center;
-      justify-content: space-around;
+      justify-content: center;
+      gap: 100px;
     }
   }
 }

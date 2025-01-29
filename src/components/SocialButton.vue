@@ -31,7 +31,7 @@ defineProps<{
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: var(--space-12);
+  gap: var(--space-8);
   border-radius: 10px;
   font-size: var(--font-18);
 
@@ -46,7 +46,7 @@ defineProps<{
     }
 
     &-social {
-      font-size: var(--font-18);
+      font-size: var(--font-20);
       letter-spacing: 0.8px;
     }
   }
