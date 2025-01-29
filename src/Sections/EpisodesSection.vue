@@ -53,6 +53,9 @@ onMounted(async () => {
 .episodes-section {
   padding: var(--space-56) 0;
   background-color: var(--color-gray);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   &__heading {
     @extend %oswald-bold;
@@ -60,10 +63,22 @@ onMounted(async () => {
     margin-bottom: var(--space-56);
     font-size: var(--font-32);
     text-align: center;
+
+    @media only screen and (min-width: 800px) {
+      font-size: 40px;
+    }
   }
 
   &__card {
-    margin: 32px;
+    margin: var(--space-32);
+
+    @media only screen and (min-width: 1300px) {
+      margin: var(--space-32) 100px;
+    }
+
+    @media only screen and (min-width: 1300px) {
+      width: 80%;
+    }
   }
 
   &__button {
@@ -77,6 +92,11 @@ onMounted(async () => {
     display: block;
     width: max-content;
     align-self: center;
+
+    @media only screen and (min-width: 1200px) {
+      font-size: var(--font-20);
+      padding: 20px 40px;
+    }
   }
 }
 </style>
