@@ -113,7 +113,7 @@ const durationInMinutes = computed(() => Math.floor(props.duration_ms / 60000))
   }
 
   &__description {
-    @extend %oswald-light;
+    @extend %noto-sans-medium;
     margin-bottom: var(--space-8);
 
     @media only screen and (min-width: 1000px) {
