@@ -5,7 +5,7 @@ import { IconName } from '@/typings/iconName.ts'
 defineProps<{
   about: string
   aboutExtra: string
-  linkedin: string;
+  linkedin: string
 }>()
 </script>
 
@@ -71,7 +71,7 @@ defineProps<{
 
   &__link {
     @extend %noto-sans-medium;
-    margin: var(--space-12) 0 0 auto;
+    margin-top: var(--space-12);
     padding: var(--space-8) var(--space-12);
     width: max-content;
     display: flex;

@@ -4,6 +4,7 @@ import GenericIcon from '@/components/GenericIcon.vue'
 
 defineProps<{
   icon: IconName
+  iconSize?: string
   name: string
   link: string
 }>()
@@ -11,7 +12,7 @@ defineProps<{
 
 <template>
   <a :href="link" target="_blank" class="social-button">
-    <GenericIcon :name="icon" size="60" />
+    <GenericIcon :name="icon" size="50" />
 
     <div class="social-button__text-wrapper">
       <span class="social-button__text-listen">Listen on</span>
@@ -25,7 +26,7 @@ defineProps<{
 
 .social-button {
   @extend %noto-sans-medium;
-  padding: var(--space-4) 80px var(--space-4) var(--space-8);
+  padding: var(--space-8) 80px var(--space-8) var(--space-12);
   background: var(--color-black);
   color: var(--color-white);
   text-decoration: none;

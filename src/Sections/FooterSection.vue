@@ -24,10 +24,16 @@ import { IconName } from '@/typings/iconName.ts'
             href="https://open.spotify.com/show/0yYMHIsmd6I5dGXU3xyIcL?si=22efb5324637422b"
             target="_blank"
           >
-            <GenericIcon :name="IconName.spotify" size="40" />
+            <GenericIcon :name="IconName.spotify" size="35" />
+          </a>
+          <a
+            href="https://podcasts.apple.com/us/podcast/pogadajmy-o-agile/id1499729984"
+            target="_blank"
+          >
+            <GenericIcon :name="IconName.applePodcast" size="35" />
           </a>
           <a href="https://m.youtube.com/@pogadajmyoagile" target="_blank">
-            <GenericIcon :name="IconName.youtube" size="40" />
+            <GenericIcon :name="IconName.youtube" size="35" />
           </a>
         </div>
       </div>
@@ -36,13 +42,13 @@ import { IconName } from '@/typings/iconName.ts'
         <h3>SKONTAKTUJ SIĘ Z NAMI</h3>
         <div class="footer-section__icons-wrapper">
           <a href="https://www.facebook.com/PogadajmyoAgile" target="_blank">
-            <GenericIcon :name="IconName.facebook" size="40" />
+            <GenericIcon :name="IconName.facebook" size="35" />
           </a>
           <a href="mailto:pogadajmyoagile@gmail.com" target="_blank">
-            <GenericIcon :name="IconName.gmail" size="40" />
+            <GenericIcon :name="IconName.gmail" size="35" />
           </a>
           <a href="https://www.linkedin.com/company/pogadajmy-o-agile/" target="_blank">
-            <GenericIcon :name="IconName.linkedin" size="40" />
+            <GenericIcon :name="IconName.linkedin" size="35" />
           </a>
         </div>
       </div>
