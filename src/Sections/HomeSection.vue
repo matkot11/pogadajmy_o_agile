@@ -39,6 +39,12 @@ import SocialButton from '@/components/SocialButton.vue'
         link="https://open.spotify.com/show/0yYMHIsmd6I5dGXU3xyIcL?si=22efb5324637422b"
       />
       <SocialButton
+        :icon="IconName.applePodcast"
+        name="Apple Podcasts"
+        link="https://podcasts.apple.com/us/podcast/pogadajmy-o-agile/id1499729984"
+      />
+
+      <SocialButton
         :icon="IconName.youtube"
         name="YouTube"
         link="https://m.youtube.com/@pogadajmyoagile"

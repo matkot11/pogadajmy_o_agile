@@ -6,5 +6,6 @@ export enum IconName {
   linkedinWhite = 'linkedinWhite',
   gmail = 'gmail',
   facebook = 'facebook',
+  applePodcast = 'applePodcast',
   footerLogo = 'footerLogo',
 }

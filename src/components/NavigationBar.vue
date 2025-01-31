@@ -5,7 +5,7 @@ import GenericIcon from '@/components/GenericIcon.vue'
 const handleScroll = (className: string) => {
   const elementScrollY =
     document.querySelector(className)!.getBoundingClientRect().top + window.scrollY
-  const offset = -30
+  const offset = -35
 
   window.scrollBy({ top: elementScrollY + offset - window.scrollY, behavior: 'smooth' })
 }
@@ -28,13 +28,28 @@ const handleScroll = (className: string) => {
           href="https://open.spotify.com/show/0yYMHIsmd6I5dGXU3xyIcL?si=22efb5324637422b"
           target="_blank"
         >
-          <GenericIcon :name="IconName.spotify" size="40" />
+          <GenericIcon :name="IconName.spotify" size="35" />
+        </a>
+        <a
+          href="https://podcasts.apple.com/us/podcast/pogadajmy-o-agile/id1499729984"
+          target="_blank"
+        >
+          <GenericIcon :name="IconName.applePodcast" size="35" />
         </a>
         <a href="https://m.youtube.com/@pogadajmyoagile" target="_blank">
-          <GenericIcon :name="IconName.youtube" size="40" />
+          <GenericIcon :name="IconName.youtube" size="35" />
+        </a>
+
+        <hr class="navigation-bar__divider" />
+
+        <a href="https://www.facebook.com/PogadajmyoAgile" target="_blank">
+          <GenericIcon :name="IconName.facebook" size="35" />
+        </a>
+        <a href="mailto:pogadajmyoagile@gmail.com" target="_blank">
+          <GenericIcon :name="IconName.gmail" size="35" />
         </a>
         <a href="https://www.linkedin.com/company/pogadajmy-o-agile/" target="_blank">
-          <GenericIcon :name="IconName.linkedin" size="40" />
+          <GenericIcon :name="IconName.linkedin" size="35" />
         </a>
       </div>
     </div>
@@ -91,7 +106,14 @@ const handleScroll = (className: string) => {
 
     @media only screen and (min-width: 700px) {
       display: flex;
+      align-items: center;
     }
+  }
+
+  &__divider {
+    border-left: 1px solid var(--color-white);
+    margin: 0 var(--space-4);
+    height: 28px;
   }
 }
 </style>
