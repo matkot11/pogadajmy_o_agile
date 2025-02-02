@@ -104,7 +104,7 @@ const handleScroll = (className: string) => {
     transform: translateY(-50%);
     right: 0;
 
-    @media only screen and (min-width: 700px) {
+    @media only screen and (min-width: 900px) {
       display: flex;
       align-items: center;
     }
