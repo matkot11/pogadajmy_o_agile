@@ -27,6 +27,12 @@ import SocialButton from '@/components/SocialButton.vue'
       >
         <GenericIcon :name="IconName.spotify" size="60" />
       </a>
+      <a
+        href="https://podcasts.apple.com/us/podcast/pogadajmy-o-agile/id1499729984"
+        target="_blank"
+      >
+        <GenericIcon :name="IconName.applePodcast" size="60" />
+      </a>
       <a href="https://m.youtube.com/@pogadajmyoagile" target="_blank">
         <GenericIcon :name="IconName.youtube" size="60" />
       </a>
@@ -152,7 +158,7 @@ import SocialButton from '@/components/SocialButton.vue'
     align-items: center;
     justify-content: space-between;
 
-    @media only screen and (min-width: 700px) {
+    @media only screen and (min-width: 975px) {
       display: none;
     }
   }
@@ -160,7 +166,7 @@ import SocialButton from '@/components/SocialButton.vue'
   &__socials--desktop {
     display: none;
 
-    @media only screen and (min-width: 700px) {
+    @media only screen and (min-width: 975px) {
       padding-top: var(--space-56);
       display: flex;
       align-items: center;
