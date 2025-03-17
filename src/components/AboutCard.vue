@@ -2,11 +2,16 @@
 import GenericIcon from '@/components/GenericIcon.vue'
 import { IconName } from '@/typings/iconName.ts'
 
-defineProps<{
-  about: string
-  aboutExtra: string
-  linkedin: string
-}>()
+withDefaults(
+  defineProps<{
+    about: string
+    aboutExtra?: string
+    linkedin: string
+  }>(),
+  {
+    aboutExtra: undefined,
+  },
+)
 </script>
 
 <template>

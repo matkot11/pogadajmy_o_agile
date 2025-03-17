@@ -9,8 +9,7 @@ import AboutCard from '@/components/AboutCard.vue'
       <h3 class="about-section__name">Piotr Wojtera</h3>
       <AboutCard
         class="about-section__card"
-        about="Lorem ipsum odor amet, consectetuer adipiscing elit. Congue cubilia integer sociosqu donec ac. Tortor suscipit mattis condimentum platea iaculis pretium. Lacinia phasellus tristique bibendum tristique luctus mi. Senectus donec netus nec ornare efficitur "
-        about-extra="lacinia lacus morbi. Lorem magna porttitor felis habitasse lacinia suscipit. Lorem ipsum odor amet, consectetuer adipiscing elit. Congue cubilia integer sociosqu donec ac. Tortor suscipit mattis condimentum platea iaculis pretium"
+        about="Mentor, trener, agent zmiany, agile coach. Od 20 lat w branży IT. Od kilku lat blisko współpracuję ze Scaled Agile, ale pamiętam też czasy gdy w rozwoju oprogramowania królowały projekty. Z zaciekawieniem obserwuję małe zmiany i mega cykle, które przetaczają się przez rynek IT w ostatnich latach. Poszukuję. Właśnie dlatego rozmowy w podkaście  są dla mnie wartościowe. Sam nie wiem z jakimi wnioskami skończymy odcinek."
         linkedin="https://www.linkedin.com/in/piotr-wojtera?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       />
     </div>
