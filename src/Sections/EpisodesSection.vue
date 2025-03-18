@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted } from 'vue'
+import { computed, onMounted } from 'vue'
 import { useSpotifyData } from '@/composables/useSpotifyData.ts'
 import EpisodeCard from '@/components/EpisodeCard.vue'
 
@@ -8,6 +8,8 @@ const { getSpotifyData, spotifyData, loading } = useSpotifyData()
 onMounted(async () => {
   await getSpotifyData()
 })
+
+const filterOutNullEpisodes = computed(() => spotifyData.value?.items.filter((item) => !!item))
 </script>
 
 <template>
@@ -25,7 +27,7 @@ onMounted(async () => {
           duration_ms,
           release_date,
           external_urls: { spotify: url },
-        } in spotifyData.items"
+        } in filterOutNullEpisodes"
         :key="id"
         :name="name"
         :description="description"

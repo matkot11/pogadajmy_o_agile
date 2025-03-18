@@ -9,8 +9,9 @@ import AboutCard from '@/components/AboutCard.vue'
       <h3 class="about-section__name">Piotr Wojtera</h3>
       <AboutCard
         class="about-section__card"
-        about="Mentor, trener, agent zmiany, agile coach. Od 20 lat w branży IT. Od kilku lat blisko współpracuję ze Scaled Agile, ale pamiętam też czasy gdy w rozwoju oprogramowania królowały projekty. Z zaciekawieniem obserwuję małe zmiany i mega cykle, które przetaczają się przez rynek IT w ostatnich latach. Poszukuję. Właśnie dlatego rozmowy w podkaście  są dla mnie wartościowe. Sam nie wiem z jakimi wnioskami skończymy odcinek."
-        linkedin="https://www.linkedin.com/in/piotr-wojtera?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        about="Mentor, trener, agent zmiany, agile coach. Od 20 lat w branży IT. Od kilku lat blisko współpracuję ze Scaled Agile, ale pamiętam też czasy gdy w rozwoju oprogramowania królowały projekty."
+        about-extra="Z zaciekawieniem obserwuję małe zmiany i mega cykle, które przetaczają się przez rynek IT w ostatnich latach. Poszukuję. Właśnie dlatego rozmowy w podkaście  są dla mnie wartościowe. Sam nie wiem z jakimi wnioskami skończymy odcinek."
+        linkedin="https://www.linkedin.com/in/piotr-wojtera"
       />
     </div>
 
@@ -25,7 +26,7 @@ import AboutCard from '@/components/AboutCard.vue'
         class="about-section__card about-section__card--secondary"
         about="Ojciec, mąż, a zawodowo praktyk agile i kierownik projektów z doświadczeniem w zarządzaniu projektami w przemyśle produkcyjnym, morskim, a przede wszystkim IT. Sprawia mi olbrzymią przyjemność dzielenie się swoją wiedzą, prowadzenie szkoleń oraz wspieranie rozwoju zarówno zespołów jak poszczególnych osób."
         about-extra="Latem uprawiam agresywną jazdę na rolkach, zimą morsuję i jeżdżę na snowboard, a w nocy strzegę mojej córki przed potworami i koszmarami."
-        linkedin="https://www.linkedin.com/in/micha%C5%82-toczek-5b251a29?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        linkedin="https://www.linkedin.com/in/michal-toczek"
       />
     </div>
   </div>
