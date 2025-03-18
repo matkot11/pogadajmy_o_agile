@@ -1,13 +1,3 @@
-export type PaginatedEpisodes = {
-  href: string
-  limit: number
-  next: number | null
-  offset: number
-  previous: number | null
-  total: number
-  items: Episode[]
-}
-
 export type Episode = {
   audio_preview_url: string
   description: string
