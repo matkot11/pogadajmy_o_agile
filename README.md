@@ -1,39 +1,13 @@
-# pogadajmy_o_agile
+# Pogadajmy o Agile
 
-This template should help get you started developing with Vue 3 in Vite.
+## About:
 
-## Recommended IDE Setup
+The Pogadajmy o Agile website was developed for a client and serves as a dedicated platform for an Agile-focused podcast. The website introduces the podcast hosts and showcases the latest episodes by integrating with the Spotify API. This feature allows new content to be displayed automatically, ensuring visitors always have access to the most recent episodes. Building this website strengthened my ability to communicate effectively with both the client and the designer. By thoroughly defining the client’s needs and collaborating closely with the designer, I ensured that the final product aligned with the client's vision. Through multiple meetings and iterative feedback sessions, I was able to deliver a website that met the client’s expectations.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+## Tech stack:
+- Vue
+- Vite
+- TypeScript
+- SCSS
+- Axios
+- Spotify API
